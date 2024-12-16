@@ -8,7 +8,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,24 +21,24 @@
         <h1>AluraGeek</h1>
     </header>
     <main>
-        <section>
+        <section id="adicionar-produto">
             <h2>ADICIONAR PRODUTO!</h2>
-            <form action="">
+            <form action="" class="formulario-adicionar">
                 <div class="formulario__campo">
                     <input name="nome" id="nome" class="campo__escrita" placeholder="nome..." required />
                 </div>
                 <div class="formulario__campo">
-                    <input name="nome" id="nome" class="campo__escrita" placeholder="preço..." required />
+                    <input name="preco" id="preco" class="campo__escrita" placeholder="preço..." required />
                 </div>
                 <div class="formulario__campo">
-                    <input name="nome" id="nome" class="campo__escrita" placeholder="imagem..." required />
+                    <input name="imagem" id="imagem" class="campo__escrita" placeholder="imagem..." required />
                 </div>
 
                 <input class="formulario__botao" type="submit" value="Guardar" />
                 <button>Limpar</button>
             </form>
         </section>
-        <section>
+        <section id="produtos">
             <h2>
                 MEUS PRODUTOS!
             </h2>
