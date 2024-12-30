@@ -18,7 +18,7 @@ html, body {
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    max-width: 43rem;
+    /*max-width: 43rem;*/
   }
 
 header{
@@ -111,7 +111,7 @@ header{
     gap: 1rem;
     overflow-x: auto;
     padding-bottom: 2rem;
-    max-width: 46rem;
+    width: 46rem;
 }
 
 .imagem{
@@ -124,6 +124,7 @@ header{
     font-family: "IBM Plex Mono", monospace;
     font-weight: 600;
     line-height: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.9);
 }
 
 .imagem h3{
@@ -159,3 +160,9 @@ footer{
     font-family: "Press Start 2P", serif;
 }
 
+@media (min-width: 768px) {
+    .imagem-container {
+      justify-content: center;
+      width: 80em;
+    }
+  }
