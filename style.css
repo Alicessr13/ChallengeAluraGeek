@@ -107,11 +107,15 @@ header{
 }
 
 .imagem-container{
-    display: flex;
-    gap: 1rem;
-    overflow-x: auto;
-    padding-bottom: 2rem;
-    width: 46rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+    gap: 1rem; /* Espaçamento entre os itens */
+    padding: 2rem;
+    width: 100%;
+    max-width: 56rem;
+    overflow-x: auto; /* Permite rolar horizontalmente em telas menores */
+    overflow-y: auto;
+    height: 87rem;
 }
 
 .imagem{
@@ -125,6 +129,7 @@ header{
     font-weight: 600;
     line-height: 20px;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.9);
+    margin-bottom: 2rem;
 }
 
 .imagem h3{
@@ -163,7 +168,7 @@ footer{
 @media (min-width: 768px) {
     .imagem-container {
       justify-content: center;
-      width: 80em;
+      max-width: 67em;
     }
   }
 
@@ -175,6 +180,8 @@ footer{
 
     #adicionar-produto{
         justify-content: flex-start;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     #produtos{
