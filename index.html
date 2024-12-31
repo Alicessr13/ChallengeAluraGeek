@@ -23,20 +23,20 @@
     <main>
         <section id="adicionar-produto">
             <h2>ADICIONAR PRODUTO:</h2>
-            <form action="" class="formulario-adicionar">
+            <form class="formulario-adicionar" produto-formulario>
                 <div class="formulario__campo">
-                    <input name="nome" id="nome" class="campo__escrita" placeholder="nome..." required />
+                    <input name="nome" id="nome" class="campo__escrita" placeholder="nome..." required produto-nome />
                 </div>
                 <div class="formulario__campo">
-                    <input name="preco" id="preco" class="campo__escrita" placeholder="preço..." required />
+                    <input name="preco" id="preco" class="campo__escrita" placeholder="preço..." required produto-preco/>
                 </div>
                 <div class="formulario__campo">
-                    <input name="imagem" id="imagem" class="campo__escrita" placeholder="imagem..." required />
+                    <input name="imagem" id="imagem" class="campo__escrita" placeholder="imagem..." required produto-imagem/>
                 </div>
 
                 <div class="botoes">
                     <input class="formulario-botao" type="submit" value="Guardar" />
-                    <button class="formulario-botao">Limpar</button>
+                    <button class="formulario-botao limpar" type="button">Limpar</button>
                 </div>
             </form>
         </section>
@@ -59,6 +59,7 @@
         <p>ALURA LATAM - 2024</p>
     </footer>
     <script src="./js/mostrarVideos.js" type="module"></script>
+    <script src="../js/criaVideo.js" type="module"></script>
 </body>
 
 </html>

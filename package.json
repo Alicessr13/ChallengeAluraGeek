@@ -1,70 +1,46 @@
 {
-  "produtos":[
+  "produtos": [
     {
-      "nome": "Super man",
-      "preco": "10",
+      "nome": "teste",
+      "preco": "80",
       "imagem": "assets/Skill.png",
       "id": 1
     },
     {
-      "nome": "Teste",
+      "nome": "teste2",
       "preco": "50",
       "imagem": "assets/image2.png",
       "id": 2
     },
     {
-      "nome": "Teste",
-      "preco": "50",
-      "imagem": "assets/image2.png",
+      "nome": "teste3",
+      "preco": "150",
+      "imagem": "assets/Skill.png",
       "id": 3
     },
     {
-      "nome": "Teste",
-      "preco": "50",
+      "nome": "teste4",
+      "preco": "45",
       "imagem": "assets/image2.png",
       "id": 4
     },
     {
-      "nome": "Teste",
+      "nome": "teste5",
       "preco": "50",
-      "imagem": "assets/image2.png",
+      "imagem": "assets/Skill.png",
       "id": 5
     },
     {
-      "nome": "Teste",
-      "preco": "50",
+      "nome": "teste",
+      "preco": "80",
       "imagem": "assets/image2.png",
       "id": 6
     },
     {
-      "nome": "Teste",
-      "preco": "50",
+      "nome": "teste",
+      "preco": "90",
       "imagem": "assets/image2.png",
-      "id": 5
-    },
-    {
-      "nome": "Teste",
-      "preco": "50",
-      "imagem": "assets/image2.png",
-      "id": 5
-    },
-    {
-      "nome": "Teste",
-      "preco": "50",
-      "imagem": "assets/image2.png",
-      "id": 5
-    },
-    {
-      "nome": "Teste",
-      "preco": "50",
-      "imagem": "assets/image2.png",
-      "id": 5
-    },
-    {
-      "nome": "Teste",
-      "preco": "50",
-      "imagem": "assets/image2.png",
-      "id": 5
+      "id": 7
     }
   ]
 }

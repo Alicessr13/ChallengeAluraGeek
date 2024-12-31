@@ -115,7 +115,7 @@ header{
     max-width: 56rem;
     overflow-x: auto; /* Permite rolar horizontalmente em telas menores */
     overflow-y: auto;
-    height: 87rem;
+    max-height: 87rem;
 }
 
 .imagem{
