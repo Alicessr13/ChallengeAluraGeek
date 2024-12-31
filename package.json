@@ -1,0 +1,10 @@
+{
+  "produtos":[
+    {
+      "nome": "Super man",
+      "preco": "10",
+      "imagem": "assets/Skill.png",
+      "id": 1
+    }
+  ]
+}
